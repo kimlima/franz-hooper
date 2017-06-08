@@ -1,0 +1,23 @@
+{
+  "name": "Hooper",
+  "version": "1.0.0",
+  "description": "Hooper – Simple multi-team collaboration",
+  "main": "index.js",
+  "author": "Kim Lima <kim.lima@gocase.com.br>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "http://hoopertracker.com/users/sign_in",
+    "serviceName": "Hooper",
+    "message": "We help all your teams to communicate better – no matter how they organize themselves.",
+    "popup": [],
+    "hasNotificationSound": true,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
